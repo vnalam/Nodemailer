@@ -1,0 +1,27 @@
+<div ng-controller="RetrieveCtrl">
+	<div class = "container">
+		<div class="col-md-4 col-md-offset-4">
+			<div class="form-group has-feedback">
+				<input type="search" class="form-control" ng-model="eEmail" placeholder="Enter Email Address">
+				<br>
+				<div class="text-center">
+					<ul class="pagination pagination-lg">
+						<a id="submit" class="btn btn-primary" ng-click="getList()">Get Data</a>
+					</ul>
+				</div>
+			</div>
+			<br>
+			<div ng-show="result">
+				<div class="padding" ng-repeat="m in result">
+					<div class="form-group has-feedback">
+						Name:	<input type="text" class="form-control" placeholder="Name" ng-value="m.eName" id="sNameUpdated">
+					</div>
+					<div class="form-group has-feedback">
+						Email:<input type="email" class="form-control" placeholder="Email" ng-value="m.eEmail" ng-model="eEmail" readonly>
+					</div>
+					<button class="btn btn-warning" ng-click="update()">update</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

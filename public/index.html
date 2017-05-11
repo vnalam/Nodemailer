@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset="utf-8">
+		<title>Insertion</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">Miracle CRUD</a>
+				</div>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="#/create">Create</a></li>
+					<li class="active"><a href="#/retrieve">Retrieve</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div ng-app="mainApp">
+			<ng-view></ng-view>
+		</div>
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8//angular-route.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>

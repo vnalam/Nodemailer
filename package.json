@@ -1,0 +1,20 @@
+{
+  "name": "StudentCRUDApp",
+  "version": "1.0.0",
+  "description": "Express CRUD application on StudentDetails",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "config.json": "0.0.4",
+    "express": "^4.13.4",
+    "fs": "0.0.1-security",
+    "mongoose": "^4.4.11",
+    "nodemailer": "^4.0.1",
+    "nodemailer-smtp-transport": "^2.7.4"
+  },
+  "author": "AP Cloud Team",
+  "license": "ISC"
+}

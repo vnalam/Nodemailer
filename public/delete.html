@@ -1,0 +1,32 @@
+<!-- Page for Detele the student informanation-->
+<div ng-controller="DeleteCtrl">
+	<div class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" style="color:skyblue" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headbar" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand whiteText" href="#"><strong>MEAN CRUD App</strong></a>
+			</div>
+			<div class="collapse navbar-collapse" id="headbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a class="whiteText" href="#/create">Create<span></a></li>
+					<li><a class="whiteText" href="#/retrieve">Retrieve</a></li>
+					<li><a class="whiteText" href="#/delete">Delete</a></li>
+					<li><a class="whiteText" href="#/update">Update</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="submitDiv1" class="container" style="padding: 15px; padding-top: 2px">
+		<div class="form-group has-feedback">
+			<input type="search" placeholder="Enter Email Address" class="form-control" id="sEmailDelete">
+			<br>
+			<div class="text-center">
+				<ul class="pagination pagination-lg">
+					<li class="pageBtn"><a id="submit" ng-click="deleteData()">Delete Data</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

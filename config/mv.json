@@ -1,0 +1,7 @@
+{
+"domain": "www.App.com",
+"mongodb": {
+"host": "localhost",
+"port": 27017
+}
+}
